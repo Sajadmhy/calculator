@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-.display {
+#display {
     height: 70px;
     width: 250px;
     background-color: white;
@@ -22,28 +22,10 @@
     height:30px ;
 }
 
-.first-row{
+.first-row , .second-row , .third-row , .fourth-row{
     display: flex;
     gap: 10px;
     padding:0 20px 10px ;
-}
-
-.second-row{
-    display: flex;
-    gap: 10px;
-    padding:0 20px 10px;
-}
-
-.third-row{
-    display: flex;
-    gap: 10px;
-    padding:0 20px 10px;
-}
-
-.fourth-row{
-    display: flex;
-    gap: 10px;
-    padding:0 20px 10px;
 }
 
 button {
@@ -57,4 +39,12 @@ button {
     flex: 1;
     font-size: 24px;
    
+}
+
+#plus , #minus , #product , #divide {
+    background-color: blue;
+}
+
+#equals , #clear {
+    background-color: blueviolet;
 }

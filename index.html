@@ -5,66 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     <div id="container">
-        <div class="display"><p>result</p></div>
+        <div id="display"><p>result</p></div>
         <div class="spacer"></div>
         <div class="buttons">
             <div class="first-row">
-                <button>
+                <button class="num" data-num="1">
                     <p>1</p>
                 </button>
-                <button>
+                <button class="num" data-num="2">
                     <p>2</p>
                 </button>
-                <button>
+                <button class="num" data-num="3">
                     <p>3</p>
                 </button>
-                <button>
+                <button class="ops" data-ops="plus">
                     <p>+</p>
                 </button>
             </div>
 
             <div class="second-row">
-                <button>
+                <button class="num" data-num="4">
                     <p>4</p>
                 </button>
-                <button>
+                <button class="num" data-num="5">
                     <p>5</p>
                 </button>
-                <button>
+                <button class="num" data-num="6">
                     <p>6</p>
                 </button>
-                <button>
+                <button class="ops" data-ops="minus">
                     <p>-</p>
                 </button>
             </div>
 
             <div class="third-row">
-                <button>
+                <button class="num" data-num="7">
                     <p>7</p>
                 </button>
-                <button>
+                <button class="num" data-num="8">
                     <p>8</p>
                 </button>
-                <button>
+                <button class="num" data-num="9">
                     <p>9</p>
                 </button>
-                <button>
+                <button class="ops" data-ops="times">
                     <p>*</p>
                 </button>
             </div>
             <div class="fourth-row">
-                    <button>
+                    <button id="equals" data-result="">
+                        <p>=</p>
+                    </button>
+                    <button class="num" data-num="0">
                         <p>0</p>
                     </button>
-                    <button>
+                    <button id="clear">
                         <p>C</p>
                     </button>
-                    <button>
+                    <button class="ops" data-ops="divided by">
                         <p>/</p>
                     </button>
             </div>  
