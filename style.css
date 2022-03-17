@@ -1,0 +1,60 @@
+#container {
+    background-color: gray;
+    margin: 100px 400px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.display {
+    height: 70px;
+    width: 250px;
+    background-color: white;
+    margin: auto ;
+    border-radius: 15px;
+    transform: translate(0,10px);
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.spacer {
+    height:30px ;
+}
+
+.first-row{
+    display: flex;
+    gap: 10px;
+    padding:0 20px 10px ;
+}
+
+.second-row{
+    display: flex;
+    gap: 10px;
+    padding:0 20px 10px;
+}
+
+.third-row{
+    display: flex;
+    gap: 10px;
+    padding:0 20px 10px;
+}
+
+.fourth-row{
+    display: flex;
+    gap: 10px;
+    padding:0 20px 10px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    height: 65px;
+    width: 65px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 20px;
+    flex: 1;
+    font-size: 24px;
+   
+}
